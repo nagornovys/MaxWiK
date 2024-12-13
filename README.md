@@ -24,17 +24,22 @@ All questions and requests can be sent to [nagornov.yuri\@gmail.com](mailto:nago
 
 **Package:** This software is a package named **MaxWiK** contains Approximate Bayesian Computation methods to choose a single parameter for a single observation point.
 
-To install, please, use the archive file 'MaxWiK_1.0.0.tar.gz':
+To install from CRAN:
 
 ```         
-utils::install.packages("./MaxWiK_1.0.0.tar.gz", repos = NULL, type = "source")
+utils::install.packages("MaxWiK")
 ```
 
-To see how it works, please, be kind use the templates. To get templates, please, use command:
+To install from the archive file 'MaxWiK_1.XX.XX.tar.gz' (1.XX.XX is a release number):
 
 ```         
-MaxWiK_templates( dir = './' )   
-# dir can be any working folder where template will be copied
+utils::install.packages("./MaxWiK_1.XX.XX.tar.gz", repos = NULL, type = "source")
+```
+
+To see how it works, please, be kind use the templates and read vignettes. To get templates, please, use command:
+
+```         
+MaxWiK_templates( dir = './' )   # dir can be any working folder where template will be copied
 ```
 
 ### Cite package MaxWiK
